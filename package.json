@@ -38,8 +38,7 @@
     "mocha": "4.0.1",
     "supertest": "3.0.0"
   },
-  "scripts": {
-    "postinstall": "node ./bin/closure-util.js update",
+  "scripts": {    
     "pretest": "eslint bin lib test --ignore-pattern test/fixtures/errors/**/*.js",
     "test": "mocha --exit test/spec",
     "start": "npm test -- --watch"
